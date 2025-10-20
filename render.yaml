@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: barsik-live
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python server.py
+    autoDeploy: true
